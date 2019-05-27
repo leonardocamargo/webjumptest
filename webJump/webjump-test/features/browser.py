@@ -11,12 +11,12 @@ utilizados, busca de elementos, fechar a instancia do browser
 """
 class Browser(object):
 
-    options = Options()   
-    options.add_argument("--start-maximized")
+    chrome_options = Options()   
+    chrome_options.add_argument("--headless")
 
     base_url = 'https://webjump-user.github.io'
 
-    driver = webdriver.Chrome(chrome_options=options)
+    # driver = webdriver.Chrome(chrome_options=chrome_options)
     driver = webdriver.Chrome()
 
     def close(self):

@@ -8,8 +8,8 @@ A versão atual é a 1.0.0, sujeita a alteração devido as modificações.
 
 - Projeto requer a versão do [Python3](https://www.python.org/downloads/) 
 - Selenium WebDriver Latest Version
-- Chrome versã
-- Behave
+- Chrome versão 73.0.3683.75
+- Behave Latest Version 
 - ChromeDriver Latest Version [ChromeDriver](https://tecadmin.net/setup-selenium-chromedriver-on-ubuntu/)
 
 ```sh
