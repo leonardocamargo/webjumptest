@@ -8,6 +8,7 @@ A versão atual é a 1.0.0, sujeita a alteração devido as modificações.
 
 - Projeto requer a versão do [Python3](https://www.python.org/downloads/) 
 - Selenium WebDriver Latest Version
+- Chrome versã
 - Behave
 - ChromeDriver Latest Version [ChromeDriver](https://tecadmin.net/setup-selenium-chromedriver-on-ubuntu/)
 
@@ -34,9 +35,12 @@ e comentar a linha
 
 ### Run
 
-Para executar os testes basta estar na pasta geru-testes e executar o comando:
+Para executar os testes basta estar na pasta webjump-test e executar o comando:
 ```sh
 $ behave
 ```
 
-
+Caso queira executar um cenario especifico, basta executar o comando:
+```sh
+$ behave -n "NOME_DO_CENARIO"
+```
