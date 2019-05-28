@@ -10,7 +10,7 @@ A versão atual é a 1.0.0, sujeita a alteração devido as modificações.
 - Selenium WebDriver Latest Version
 - Chrome versão 73.0.3683.75
 - Behave Latest Version 
-- ChromeDriver Latest Version [ChromeDriver](https://tecadmin.net/setup-selenium-chromedriver-on-ubuntu/)
+- ChromeDriver Version 73.0.3683.68 [ChromeDriver](https://tecadmin.net/setup-selenium-chromedriver-on-ubuntu/)
 
 ```sh
 $ sudo apt-get update
@@ -18,7 +18,7 @@ $ sudo apt-get install python3.6
 $ sudo apt install python3-pip
 $ pip3 install -U selenium
 $ apt install python3-behave
-$ wget https://chromedriver.storage.googleapis.com/75.0.3770.8/chromedriver_linux64.zip
+$ wget https://chromedriver.storage.googleapis.com/73.0.3683.68/chromedriver_linux64.zip
 $ unzip chromedriver_linux64.zip
 $ sudo mv chromedriver /usr/bin/chromedriver
 $ sudo chown root:root /usr/bin/chromedriver
@@ -35,7 +35,7 @@ e comentar a linha
 
 ### Run
 
-Para executar os testes basta estar na pasta webjump-test e executar o comando:
+Para executar os testes basta estar na pasta webjumptest/webjump-test e executar o comando:
 ```sh
 $ behave
 ```
