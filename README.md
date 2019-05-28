@@ -22,7 +22,7 @@ $ wget https://chromedriver.storage.googleapis.com/75.0.3770.8/chromedriver_linu
 $ unzip chromedriver_linux64.zip
 $ sudo mv chromedriver /usr/bin/chromedriver
 $ sudo chown root:root /usr/bin/chromedriver
-$ sudo chmod +x /ushw r/bin/chromedriver
+$ sudo chmod +x /usr/bin/chromedriver
 ```
 
 ### Headless Browser
